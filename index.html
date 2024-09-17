@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>AKINTO</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-container">
+            <div class="SignUp">
+                <form>
+                    <h1>Sign Up</h1>
+                    <h6>Please fill in this form to create an account</h6>
+                    <div class="box">
+                        <div class="box">
+                            <div class="input-container">
+                                <input type="email" placeholder="Email" required>
+                                <i class='bx bx-user'></i>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" placeholder="Password" required>
+                                <i class='bx bx-lock-alt'></i>
+                            </div>
+                            <div class="input-container">
+                                <input type="password" placeholder="Repeat Password" required>
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn">Sign Up</button>
+                    </div>
+                    <div class="linkswitchA">
+                        <p>Already have an account? <a href="#" id="showL" class="linkswitch">Log In here</a></p>   
+                    </div>
+                </form>
+            </div>
+            <div class="LogIn">
+                <form>
+                    <h1>Log In</h1>
+                    <h6>Please enter your credentials to log in</h6>
+                    <div class="box">
+                        <div class="input-container">
+                            <input type="email" placeholder="Email" required>
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="input-container">
+                            <input type="password" placeholder="Password" required>
+                            <i class='bx bx-lock-alt'></i>
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox"> Remember me</label>
+                            <a href="#"> Forgot password?</a>
+                        </div>
+                        <button type="submit" class="btn">Log In</button>
+                        <div class="linkswitchB">
+                            <p>Don't have an account? <a href="#" id="showS" class="linkswitch">Sign Up here</a></p>   
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
